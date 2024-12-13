@@ -1,0 +1,106 @@
+body {
+    max-width: 1400px;
+    display: contents;
+    background-color: black;
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    font-size: 100px;
+    color: white;
+    overflow: hidden;
+    /*max-width: 1200px;*/
+    background-color: black;
+}
+
+.grid-one {
+    display: grid;
+}
+
+.span-one {
+    border: 1px solid white;
+    padding: 0 191px;
+    font-size: 30px;
+    margin-right: 15px;
+    position: relative;
+
+}
+
+.span-one:last-child {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.span-one.two {
+    padding: 0 100px;
+}
+
+.span-one.three {
+    padding: 0 50px;
+}
+
+#video1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    z-index: 1;
+    object-fit: none;
+}
+
+#video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    z-index: 1;
+    object-fit: none;
+}
+
+#video3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    z-index: 1;
+    object-fit: none;
+}
+
+#video4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    z-index: 1;
+    object-fit: none;
+}
+
+
+
+
+
+
+
+
